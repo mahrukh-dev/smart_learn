@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Documents/Projects/smart_learn/smart_learn.iml" filepath="$USER_HOME$/Documents/Projects/smart_learn/smart_learn.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/Projects/smart_learn/android/smart_learn_android.iml" filepath="$USER_HOME$/Documents/Projects/smart_learn/android/smart_learn_android.iml" />
+    </modules>
+  </component>
+</project>
