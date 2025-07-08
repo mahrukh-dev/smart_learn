@@ -61,3 +61,4 @@ Firebase integration
 API consumption (OpenAI)
 Accessibility and offline-first design
 UI/UX best practices
+# smart_learn
