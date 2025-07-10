@@ -12,7 +12,20 @@
           "package_name": "com.asteriq.smart_learn"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "755505103647-8fk1p9g4b17tapte51itl2t4ick1esqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asteriq.smart_learn",
+            "certificate_hash": "213354d2b4a99539e4946de72174944596c28aa0"
+          }
+        },
+        {
+          "client_id": "755505103647-jsnlenlpcm1aip2in6pqtlo524nu5ki2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6_ZhaDFR1BdwPZG4ldteTzH9TymOABjY"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755505103647-jsnlenlpcm1aip2in6pqtlo524nu5ki2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "755505103647-l0go8etk8jjtotdqqi53n2scf0pq78ef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.asteriq.smartLearn"
+              }
+            }
+          ]
         }
       }
     }
