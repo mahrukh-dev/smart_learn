@@ -5,6 +5,10 @@ import 'package:smart_learn/modules/auth/views/signin_view.dart';
 import 'package:smart_learn/modules/auth/views/signup_view.dart';
 import 'package:smart_learn/modules/home/bindings/home_binding.dart';
 import 'package:smart_learn/modules/home/views/home_view.dart';
+import 'package:smart_learn/modules/quiz/bindings/quiz_binding.dart';
+import 'package:smart_learn/modules/quiz/views/quiz_list_view.dart';
+import 'package:smart_learn/modules/quiz/views/quiz_screen_view.dart';
+import 'package:smart_learn/modules/quiz/views/result_view.dart';
 import 'package:smart_learn/modules/splash/bindings/splash_binding.dart';
 import 'package:smart_learn/modules/splash/views/splash_view.dart';
 part 'app_routes.dart';
@@ -39,6 +43,21 @@ class AppPages {
       name: _Paths.HOME,
       page: () => const HomeView(),
       binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.QUIZ_LIST,
+      page: () => const QuizListView(), // Assuming you have a QuizListView
+      binding: QuizBinding(),
+    ),
+    GetPage(
+      name: _Paths.QUIZ_SCREEN,
+      page: () => const QuizScreenView(), // Assuming you have a QuizScreenView
+      binding: QuizBinding(),
+    ),
+    GetPage(
+      name: _Paths.RESULT_SCREEN,
+      page: () => const ResultView(), // Assuming you have a ResultScreenView
+      binding: QuizBinding(),
     ),
   ];
 }
