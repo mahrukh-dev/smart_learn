@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smart_learn/modules/home/controllers/home_controller.dart';
+import 'package:smart_learn/routes/app_pages.dart';
 
 class HomeView extends GetView<HomeController> {
   const HomeView({super.key});
@@ -31,17 +32,22 @@ class HomeView extends GetView<HomeController> {
                 )),
             const SizedBox(height: 20),
             const Text(
-              'This is your SmartLearn home. More features coming soon!',
+              'Select a topic to start a quiz or view your analytics.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 30),
-            ElevatedButton(
+            // Updated button to navigate to the Quiz List
+            ElevatedButton.icon(
               onPressed: () {
-                // TODO: Navigate to quiz topics or other features
-                Get.snackbar('Feature', 'Quiz section coming soon!');
+                Get.toNamed(Routes.QUIZ_LIST);
               },
-              child: const Text('Start Quiz'),
+              icon: const Icon(Icons.quiz),
+              label: const Text('Start Quiz'),
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
+              ),
             ),
           ],
         ),
