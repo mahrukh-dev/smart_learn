@@ -1,0 +1,91 @@
+[
+  {
+    "quiz_id": "math_quiz_001",
+    "TopicName": "Mathematics",
+    "Questions": [
+      {
+        "Question": "What is the square root of 64?",
+        "Answer": "B",
+        "AnswerOptions": {
+          "A": "6",
+          "B": "8",
+          "C": "10",
+          "D": "12"
+        },
+        "AnswerExplaination": "The square root of 64 is 8, because $8 \\times 8 = 64$."
+      },
+      {
+        "Question": "What is 5 multiplied by 7?",
+        "Answer": "A",
+        "AnswerOptions": {
+          "A": "35",
+          "B": "40",
+          "C": "45",
+          "D": "50"
+        },
+        "AnswerExplaination": "Multiplication of 5 and 7 results in 35."
+      },
+      {
+        "Question": "If a triangle has angles 90 and 45 degrees, what is the third angle?",
+        "Answer": "D",
+        "AnswerOptions": {
+          "A": "30 degrees",
+          "B": "60 degrees",
+          "C": "50 degrees",
+          "D": "45 degrees"
+        },
+        "AnswerExplaination": "The sum of angles in a triangle is 180 degrees. 180 - (90 + 45) = 45 degrees."
+      },
+      {
+        "Question": "What is the result of 100 divided by 5?",
+        "Answer": "C",
+        "AnswerOptions": {
+          "A": "10",
+          "B": "15",
+          "C": "20",
+          "D": "25"
+        },
+        "AnswerExplaination": "100 divided by 5 equals 20."
+      },
+      {
+        "Question": "Simplify: 2x + 5y - x + 2y",
+        "Answer": "A",
+        "AnswerOptions": {
+          "A": "x + 7y",
+          "B": "3x + 3y",
+          "C": "2x + 7y",
+          "D": "x + 3y"
+        },
+        "AnswerExplaination": "Combine like terms: (2x - x) + (5y + 2y) = x + 7y."
+      }
+    ]
+  },
+  {
+    "quiz_id": "history_quiz_001",
+    "TopicName": "History",
+    "Questions": [
+      {
+        "Question": "Who was the first President of the United States?",
+        "Answer": "A",
+        "AnswerOptions": {
+          "A": "George Washington",
+          "B": "Thomas Jefferson",
+          "C": "Abraham Lincoln",
+          "D": "John Adams"
+        },
+        "AnswerExplaination": "George Washington served as the first President of the United States from 1789 to 1797."
+      },
+      {
+        "Question": "In what year did World War I begin?",
+        "Answer": "C",
+        "AnswerOptions": {
+          "A": "1910",
+          "B": "1912",
+          "C": "1914",
+          "D": "1918"
+        },
+        "AnswerExplaination": "World War I began on July 28, 1914, following the assassination of Archduke Franz Ferdinand."
+      }
+    ]
+  }
+]
